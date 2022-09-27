@@ -53,9 +53,9 @@ app.use(express.json()); // parse json bodies
 // ROUTES
 ////////////////////////////////
 // create a test route
-app.get("/", (req, res) => {
-  res.send("hello world");
-});
+// app.get("/", (req, res) => {
+//   res.send("hello world");
+// });
 
 // PEOPLE INDEX ROUTE
 app.get("/people", async (req, res) => {
